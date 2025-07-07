@@ -1,6 +1,6 @@
 # Packaging TODO
 
-1. **Add metadata for npm publication**
+1. **Add metadata for npm publication** ✅
    - Update `package.json` with description, keywords, repository URL, author, and license fields.
    - Ensure `main` points to `index.js` which loads the compiled binary.
 

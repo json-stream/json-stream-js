@@ -1,15 +1,25 @@
 {
   "name": "json-stream-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js bindings for json-stream-parser",
   "main": "index.js",
   "scripts": {
     "build": "cargo build --release && cp target/release/libjson_stream_js.so index.node",
     "test": "npm run build && node test/test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "json",
+    "stream",
+    "parser",
+    "napi",
+    "rust"
+  ],
+  "author": "json-stream contributors",
+  "license": "MIT",
   "type": "commonjs",
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/json-stream/json-stream-js"
+  }
 }
