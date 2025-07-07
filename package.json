@@ -1,0 +1,17 @@
+{
+  "name": "json-stream-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx napi build --release",
+    "test": "npm run build && node test/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@napi-rs/cli": "^2.18.4"
+  }
+}
