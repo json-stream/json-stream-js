@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cargo build --release && cp target/release/libjson_stream_js.so index.node",
-    "test": "npm run build && node test/test.js"
+    "build": "npx napi build --release",
+    "test": "npm run build && node test/test.js",
+    "prepublishOnly": "npx napi build --release --platform"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "devDependencies": {}
+  "files": [
+    "index.js",
+    "index.*.node"
+  ],
+  "devDependencies": {
+    "@napi-rs/cli": "^2.18.4"
+  }
 }
