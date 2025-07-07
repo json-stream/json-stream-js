@@ -4,7 +4,7 @@
    - Update `package.json` with description, keywords, repository URL, author, and license fields.
    - Ensure `main` points to `index.js` which loads the compiled binary.
 
-2. **Introduce a build system for prebuilt binaries**
+2. **Introduce a build system for prebuilt binaries** 🚧
    - Use `@napi-rs/cli` or a similar tool to compile the Rust code into Node prebuilds.
    - Configure builds for Node 16, 18, and 20 on Linux, macOS, and Windows.
 

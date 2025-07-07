@@ -66,6 +66,7 @@ version = "0.1.0"
 dependencies = [
  "json-stream-parser",
  "napi",
+ "napi-build",
  "napi-derive",
  "serde_json",
 ]
